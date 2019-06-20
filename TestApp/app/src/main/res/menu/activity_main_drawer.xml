@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Trang chủ" />
+    </group>
+
+    <item android:title="Luyện thi trắc nghiệm">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/c"
+                    android:icon="@drawable/cauhoi"
+                    android:title="Quiz C" />
+                <item
+                    android:id="@+id/cpp"
+                    android:icon="@drawable/cauhoi"
+                    android:title="Quiz Cpp" />
+                <item
+                    android:id="@+id/luyenthi"
+                    android:icon="@drawable/test"
+                    android:title="Luyện thi" />
+                <item
+                    android:id="@+id/tudien"
+                    android:icon="@drawable/dic"
+                    android:title="Từ điển" />
+                <item
+                    android:id="@+id/score"
+                    android:icon="@drawable/list"
+                    android:title="Danh sách điểm" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

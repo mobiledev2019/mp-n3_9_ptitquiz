@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tudien"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iconSpeak"
+            android:src="@drawable/loa"
+            android:layout_width="25dp"
+            android:layout_height="50dp" />
+        <EditText
+
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:id="@+id/edtSearch"
+            android:textAlignment="center"
+            android:hint="Nhập từ trong C,C++" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:srcCompat="@android:drawable/ic_menu_search"
+            android:id="@+id/imgSearch"
+            android:layout_marginRight="10dp"/>
+
+
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvTuDien" />
+</LinearLayout>

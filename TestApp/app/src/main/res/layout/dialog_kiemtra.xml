@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/dialogkiemtra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:numColumns="3"
+        android:id="@+id/gvTraLoi" />
+
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:background="@drawable/submit"
+            android:text="Thoát"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnThoat"
+            android:layout_weight="1" />
+
+        <Button
+            android:background="@drawable/submit"
+            android:text="Nộp bài"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnNopBai"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
